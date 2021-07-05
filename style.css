@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+/* Banner Style Start */
+#banner1 {
+    background-image: url(images/banner1_background.jpg);
+    display: flex;
+}
+#bannerheading{
+    color:aqua;
+    font-size: 50px;
+    padding-top: 300px;
+    padding-left: 300px;
+    background-image: url(images/ia_300000006.png);
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+#specialword {
+    color:blueviolet;
+}
+#banner1 #bannerheading a{
+    text-decoration: none;
+   background: linear-gradient(90deg, rgba(11, 120, 0, 1) 0%, rgba(62, 200, 143, 1) 44%, rgba(0, 212, 255, 1) 100%);
+    padding: 10px 20px;
+    border-radius: 12px;
+
+}
+.bannercommon{
+      padding-top: 200px;
+}
+/* Banner Style End */
+
+/* About Section Style Start */
+#about{
+    
+}
+/* About Section Style End */
+
