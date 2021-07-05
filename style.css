@@ -175,7 +175,7 @@ input[type=submit]:hover {
     margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
-footer{
+#foot{
     text-align: center;
     color:#ffffff;
     background-color: black;
