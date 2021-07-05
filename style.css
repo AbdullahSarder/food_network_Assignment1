@@ -4,6 +4,7 @@ body{
 a{
     text-decoration: none;
 }
+
 /* Banner Style Start */
 #banner1 {
     background-image: url(images/banner1_background.jpg);
@@ -21,12 +22,14 @@ a{
 #specialword {
     color:#fd5000;
 }
-#banner1 #bannerheading a{
+#banner1 #bannerheading a,
+.about .aboutdetails a{
     text-decoration: none;
    background: linear-gradient(0deg, rgba(253, 80, 0, 1) 0%, rgba(171, 62, 11, 1) 100%);
    color:white;
     padding: 10px 20px;
     border-radius: 12px;
+    font-size: 20px;
 
 }
 .bannercommon{
@@ -35,6 +38,7 @@ a{
 /* Banner Style End */
 
   /*  Our Favourite Burger Style Start */
+
   .favburger{
       text-align: center;
   }
@@ -62,16 +66,65 @@ a{
   /*  Our Favourite Burger Style End */
 
 /* About Section Style Start */
-#about{
+.about{
     background-image: url(images/aboutbackground.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
 }
+.burgerpic,
+.aboutdetails{
+    width:50%;
+}
 .burgerpic img{
-    padding-left: 400px;
-    padding-top: 150px;
-
+    float: right;
+    margin-top: 40px;
+    
+}
+.aboutdetails {
+    margin: auto;
+    width:400px;
+    margin-left: -20px;
 }
 /* About Section Style End */
 
+.bestselling{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#allcard {
+    display: flex;
+    width:700px;
+    margin: auto;
+}
+#allcard .card {
+    border:3px solid rgb(219, 203, 203);
+    background-color: rgb(219, 203, 203);
+    width: 300px;
+    align-items: center;
+    margin-right: 4%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.follower{
+    width:80%;
+    display: flex;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.follower .col-4 {
+    width:30%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
