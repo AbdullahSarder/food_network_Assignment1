@@ -204,3 +204,12 @@ input[type=number] {
     width: 35px;
 
 }
+input[type=button] {
+    padding: 5px 25px;
+    font-size: 12px;
+    background-color: #da3c37;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
