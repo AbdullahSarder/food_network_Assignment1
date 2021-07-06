@@ -194,3 +194,13 @@ footer{
     width: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
+.productinfo{
+    margin-left: 20px;
+}
+
+input[type=number] {
+    padding: 4px;;
+    font-size: 12px;
+    width: 35px;
+
+}
